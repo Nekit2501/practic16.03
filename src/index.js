@@ -5,7 +5,7 @@ const formUP = document.querySelector('#Up-student-form');
 
 async function getStudents() {
   const { data } = await axios.get('http://localhost:3000/students');
-  // твій код
+
   console.log(data);
   renderStudents(data);
 }
@@ -36,15 +36,11 @@ function renderStudents(students) {
       })
       .join(' ');
   tbody.insertAdjacentHTML('beforeend', markup);
-
-  // твій код
 }
 
 // Функція для додавання нового студента
 
-function addStudent(e) {
-  // твій код
-}
+function addStudent(e) {}
 
 // Функція для оновлення студента
 
@@ -76,8 +72,6 @@ async function updateStudent(id) {
   });
 }
 
-// твій код
-
 // Функція для видалення студента
 tbody.addEventListener('click', e => {
   if (e.target.classList.contains('del')) {
@@ -92,4 +86,3 @@ async function deleteStudent(id) {
   tbody.innerHTML = '';
   await getStudents();
 }
-// твій код
