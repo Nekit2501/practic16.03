@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Vlad",
+      "age": 22,
+      "course": 2,
+      "skills": "HTML, CSS, JS",
+      "email": "KKKK",
+      "isEnrolled": true
+    },
+    {
+      "id": "2",
+      "name": "Vlad",
+      "age": 22,
+      "course": 2,
+      "skills": "HTML, CSS, JS",
+      "email": "KKKK",
+      "isEnrolled": true
+    },
+    {
+      "id": "3",
+      "name": "abvjpbr228",
+      "age": "67",
+      "course": "2",
+      "skills": "opo",
+      "email": "orion4ik1@ukr.net",
+      "isEnrolled": false
+    },
+    {
+      "id": "4",
+      "name": "Лавренюк Н",
+      "age": "87",
+      "course": "(068)151-22-13",
+      "skills": "gfgd",
+      "email": "nikitalavrenuk68@gmail.com",
+      "isEnrolled": true
+    }
+  ]
+}
